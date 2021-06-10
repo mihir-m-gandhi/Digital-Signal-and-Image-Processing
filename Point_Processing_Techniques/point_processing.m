@@ -55,7 +55,6 @@ imshow(f);
 g=b;
 [m,n]=size(g);
 
-count='1';
 for k = 1:8
     h=g;
     figure(7);
@@ -69,15 +68,11 @@ for k = 1:8
         end
     end
     subplot(2,4,k),imshow(h);
-    if(count=='1')
-        title('Bit-8(LSB)');
-    elseif(count=='8')
-        title('Bit-1(MSB)');
-    else
-        title(strcat('Bit-',count));        % strcat for concatenating 2 strings   
-    end
-    count = count + 1;
 end
+
+
+
+       
 
 
 
