@@ -1,4 +1,4 @@
-## Contrast Stretching
+## DFT and IDFT
 
 -----------------------------------------
 ### Problem Definition:
