@@ -56,3 +56,5 @@ Write a program to implement the following point processing techniques in spatia
 <p align="center">
     <img src="./output/image8.png">
 </p>
+
+
