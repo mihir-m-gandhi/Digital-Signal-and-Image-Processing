@@ -21,3 +21,5 @@ A perfect image is one which has an equal number of pixels in all its gray level
 <p align="center">
     <img src="./output/image2.png">
 </p>
+
+
