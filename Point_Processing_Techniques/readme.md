@@ -52,7 +52,6 @@ Write a program to implement the following point processing techniques in spatia
 </p>
 
 * Bit Plane Slicing (LSB to MSB)
-
 <p align="center">
     <img src="./output/image8.png">
 </p>
