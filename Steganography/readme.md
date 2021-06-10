@@ -15,42 +15,42 @@
 * Cover Image
 
 <p align="center">
-    <img src="./output/image1.png">
+    <img src="./output/image1.jpg">
 </p>
 
 * Grayscale Cover Image (after resizing according to data image
 
 <p align="center">
-    <img src="./output/image2.png">
+    <img src="./output/image2.jpg">
 </p>
 
 * Data Image
 
 <p align="center">
-    <img src="./output/image3.png">
+    <img src="./output/image3.jpg">
 </p>
 
 * Grayscale Data Image
 
 <p align="center">
-    <img src="./output/image4.png">
+    <img src="./output/image4.jpg">
 </p>
 
 * Bit planes after replacing the LSB of cover image with the MSB of data image (from LSB to MSB)
 
 <p align="center">
-    <img src="./output/image5.png">
+    <img src="./output/image5.jpg">
 </p>
 
 * Image after replacing the LSB of cover image with the MSB of data image 
 
 <p align="center">
-    <img src="./output/image6.png">
+    <img src="./output/image6.jpg">
 </p>
 
 * Extracted data image from the cover image
 
 <p align="center">
-    <img src="./output/image7.png">
+    <img src="./output/image7.jpg">
 </p>
 
