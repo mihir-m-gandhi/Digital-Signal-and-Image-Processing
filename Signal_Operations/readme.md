@@ -1,4 +1,4 @@
-## Contrast Stretching
+## Signal Operations
 
 -----------------------------------------
 ### Problem Definition:
