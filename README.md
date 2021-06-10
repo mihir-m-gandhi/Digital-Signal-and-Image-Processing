@@ -5,7 +5,7 @@
 <h1 align="center">Digital Signal and Image Processing</h1>
 
 <div align="center">
-<h4> This repository contains programs written as part of 'Digital Signal and Image Processing' Lab during my Bachelor's at K.J. Somaiya College of Engineering, Mumbai.</h4> 
+<h4> This repository contains MATLAB programs written as part of 'Digital Signal and Image Processing' Lab during my Bachelor's at K.J. Somaiya College of Engineering, Mumbai.</h4> 
 </div>
 
 ------------------------------------------
