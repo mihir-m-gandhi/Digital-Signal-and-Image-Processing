@@ -1,52 +1,56 @@
-## Contrast Stretching
+## Steganography
 
 -----------------------------------------
 ### Problem Definition:
-**Write a program to implement contrast stretching in a digital image.**
+**Write a program to implement implement Steganography using Least Significant Bit (LSB) algorithm.**
 
-Contrast stretching (often called normalization) is a simple image enhancement technique that attempts to improve the contrast in an image by stretching the range of intensity values it contains to span a desired range of values.
-
-<p align="center">
-    <img height=300px src="./contrast-stretching.png">
-</p>
-
-The locations of (r1,s1) and (r2,s2) control the shape of the transformation function:
-* If r1= s1 and r2= s2 the transformation is a linear function and produces no changes.
-* If r1=r2, s1=0 and s2=L-1, the transformation becomes a thresholding function that creates a binary image.
-* Intermediate values of (r1,s1) and (r2,s2) produce various degrees of spread in the gray levels of the output image, thus affecting its contrast.
-
-Generally, r1≤r2 and s1≤s2 is assumed.
-
+* Steganography is the art and science of communicating in a way which hides the existence of the communication. Steganography plays an important role in information security. The term steganography is derived from Greek and literally means “covered writing”. 
+* A Steganography system consists of three elements: cover image (which hides the secret message), the secret message (or image), and the stego-image (which is the cover object with message embedded inside it).
+* In Steganography systems that use an image as the cover, there are several techniques to conceal information inside cover-image. The spatial domain techniques manipulate the cover-image pixel intensity values to embed the secret information. Consequently, such techniques are easy to implement. 
+* The LSB is one of the conventional techniques in spatial domain image Steganography. It embeds the secret information in the least significant bits of pixel values of the cover image.
 
 ------------------------------------------
 ### Output:
 
-* Original Image (after grayscaling)
+* Cover Image
 
 <p align="center">
-    <img src="./output/image1.png">
+    <img src="./output/image1.jpg">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (20,50) and (r2,s2) = (100,150) (r2>r1, s2>s1)
+* Grayscale Cover Image (after resizing according to data image
 
 <p align="center">
-    <img src="./output/image2.png">
+    <img src="./output/image2.jpg">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (80,0) and (r2,s2) = (80,255) (r1=r2, s1=0, s2=L-1, where L is maximum gray level allowed)
+* Data Image
 
 <p align="center">
-    <img src="./output/image3.png">
+    <img src="./output/image3.jpg">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (100,100) and (r2,s2) = (200,200) (r1=s1, r2=s2)
+* Grayscale Data Image
 
 <p align="center">
-    <img src="./output/image4.png">
+    <img src="./output/image4.jpg">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+* Bit planes after replacing the LSB of cover image with the MSB of data image (from LSB to MSB)
 
 <p align="center">
-    <img src="./output/image5.png">
+    <img src="./output/image5.jpg">
 </p>
+
+* Image after replacing the LSB of cover image with the MSB of data image 
+
+<p align="center">
+    <img src="./output/image6.jpg">
+</p>
+
+* Extracted data image from the cover image
+
+<p align="center">
+    <img src="./output/image7.jpg">
+</p>
+
