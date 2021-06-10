@@ -1,22 +1,13 @@
-## Contrast Stretching
+## Steganography
 
 -----------------------------------------
 ### Problem Definition:
-**Write a program to implement contrast stretching in a digital image.**
+**Write a program to implement implement Steganography using LSB (Least Significant Bit) algorithm.**
 
-Contrast stretching (often called normalization) is a simple image enhancement technique that attempts to improve the contrast in an image by stretching the range of intensity values it contains to span a desired range of values.
-
-<p align="center">
-    <img height=300px src="./contrast-stretching.png">
-</p>
-
-The locations of (r1,s1) and (r2,s2) control the shape of the transformation function:
-* If r1= s1 and r2= s2 the transformation is a linear function and produces no changes.
-* If r1=r2, s1=0 and s2=L-1, the transformation becomes a thresholding function that creates a binary image.
-* Intermediate values of (r1,s1) and (r2,s2) produce various degrees of spread in the gray levels of the output image, thus affecting its contrast.
-
-Generally, r1≤r2 and s1≤s2 is assumed.
-
+* Steganography is the art and science of communicating in a way which hides the existence of the communication. Steganography plays an important role in information security. The term steganography is derived from Greek and literally means “covered writing”. 
+* A Steganography system consists of three elements: cover image (which hides the secret message), the secret message and the stego-image (which is the cover object with message embedded inside it).
+* The Steganography system which uses an image as the cover, there are several techniques to conceal information inside cover-image. The spatial domain techniques manipulate the cover-image pixel intensity values to embed the secret information. Consequently, the spatial domain techniques are simple and easy to implement. 
+* The Least Significant Bit (LSB) is one of the conventional techniques in spatial domain image Steganography. The LSB based image steganography embeds the secret information in the least significant bits of pixel values of the cover image.
 
 ------------------------------------------
 ### Output:
@@ -50,3 +41,16 @@ Generally, r1≤r2 and s1≤s2 is assumed.
 <p align="center">
     <img src="./output/image5.png">
 </p>
+
+* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+
+<p align="center">
+    <img src="./output/image6.png">
+</p>
+
+* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+
+<p align="center">
+    <img src="./output/image7.png">
+</p>
+
