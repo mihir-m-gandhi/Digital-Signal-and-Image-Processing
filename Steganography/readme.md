@@ -5,9 +5,9 @@
 **Write a program to implement implement Steganography using LSB (Least Significant Bit) algorithm.**
 
 * Steganography is the art and science of communicating in a way which hides the existence of the communication. Steganography plays an important role in information security. The term steganography is derived from Greek and literally means “covered writing”. 
-* A Steganography system consists of three elements: cover image (which hides the secret message), the secret message and the stego-image (which is the cover object with message embedded inside it).
-* In Steganography systems that use an image as the cover, there are several techniques to conceal information inside cover-image. The spatial domain techniques manipulate the cover-image pixel intensity values to embed the secret information. Consequently, the spatial domain techniques are simple and easy to implement. 
-* The Least Significant Bit (LSB) is one of the conventional techniques in spatial domain image Steganography. The LSB based image steganography embeds the secret information in the least significant bits of pixel values of the cover image.
+* A Steganography system consists of three elements: cover image (which hides the secret message), the secret message (or image), and the stego-image (which is the cover object with message embedded inside it).
+* In Steganography systems that use an image as the cover, there are several techniques to conceal information inside cover-image. The spatial domain techniques manipulate the cover-image pixel intensity values to embed the secret information. Consequently, such techniques are easy to implement. 
+* The Least Significant Bit (LSB) is one of the conventional techniques in spatial domain image Steganography. It embeds the secret information in the least significant bits of pixel values of the cover image.
 
 ------------------------------------------
 ### Output:
