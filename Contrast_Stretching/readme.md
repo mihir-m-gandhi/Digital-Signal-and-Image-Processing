@@ -22,7 +22,7 @@ Generally, r1≤r2 and s1≤s2 is assumed.
 ### Output:
 
 <p align="center">
-    Original Image (after grayscaling)
+    <p>Original Image (after grayscaling)</p>
     <img src="./output/image1.png">
 </p>
 
