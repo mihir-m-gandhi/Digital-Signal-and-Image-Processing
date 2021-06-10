@@ -10,3 +10,5 @@ Write a program to implement low pass and high pass filtering in spatial and fre
 <p align="center">
     <img src="./output.png">
 </p>
+
+
