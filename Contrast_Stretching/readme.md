@@ -44,3 +44,9 @@ Generally, r1≤r2 and s1≤s2 is assumed.
 <p align="center">
     <img src="./output/image4.png">
 </p>
+
+* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+
+<p align="center">
+    <img src="./output/image5.png">
+</p>
