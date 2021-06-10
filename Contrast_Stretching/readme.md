@@ -27,13 +27,19 @@ Generally, r1≤r2 and s1≤s2 is assumed.
     <img src="./output/image1.png">
 </p>
 
+* Image after contrast stretching with (r1,s1) = (20,50) and (r2,s2) = (100,150) (r2>r1, s2>s1)
+
 <p align="center">
     <img src="./output/image2.png">
 </p>
 
+* Image after contrast stretching with (r1,s1) = (80,0) and (r2,s2) = (80,255) (r1=r2, s1=0, s2=L-1, where L is maximum gray level allowed)
+
 <p align="center">
     <img src="./output/image3.png">
 </p>
+
+* Image after contrast stretching with (r1,s1) = (100,100) and (r2,s2) = (200,200) (r1=s1, r2=s2)
 
 <p align="center">
     
