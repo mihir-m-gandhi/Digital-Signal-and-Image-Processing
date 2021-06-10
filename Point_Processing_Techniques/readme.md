@@ -40,16 +40,19 @@ Write a program to implement the following point processing techniques in spatia
 </p>
 
 * Grayscale Slicing (without background) (Range: 100 to 200)
+
 <p align="center">
     <img src="./output/image6.png">
 </p>
 
 * Grayscale Slicing (with background) (Range: 100 to 200)
+
 <p align="center">
     <img src="./output/image7.png">
 </p>
 
 * Bit Plane Slicing (LSB to MSB)
+
 <p align="center">
     <img src="./output/image8.png">
 </p>
