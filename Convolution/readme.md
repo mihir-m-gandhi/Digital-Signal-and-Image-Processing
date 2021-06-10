@@ -2,7 +2,7 @@
 
 -----------------------------------------
 ### Problem Definition:
-**Write a program to compute linear and circular convolution of two discrete time sequences.**
+Write a program to compute linear and circular convolution of two discrete time sequences.
 
 ------------------------------------------
 ### Output:
