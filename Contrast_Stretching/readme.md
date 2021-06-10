@@ -42,6 +42,5 @@ Generally, r1≤r2 and s1≤s2 is assumed.
 * Image after contrast stretching with (r1,s1) = (100,100) and (r2,s2) = (200,200) (r1=s1, r2=s2)
 
 <p align="center">
-    
     <img src="./output/image4.png">
 </p>
