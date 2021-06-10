@@ -1,52 +1,58 @@
-## Contrast Stretching
+## Point Processing Techniques
 
 -----------------------------------------
 ### Problem Definition:
-**Write a program to implement contrast stretching in a digital image.**
-
-Contrast stretching (often called normalization) is a simple image enhancement technique that attempts to improve the contrast in an image by stretching the range of intensity values it contains to span a desired range of values.
-
-<p align="center">
-    <img height=300px src="./contrast-stretching.png">
-</p>
-
-The locations of (r1,s1) and (r2,s2) control the shape of the transformation function:
-* If r1= s1 and r2= s2 the transformation is a linear function and produces no changes.
-* If r1=r2, s1=0 and s2=L-1, the transformation becomes a thresholding function that creates a binary image.
-* Intermediate values of (r1,s1) and (r2,s2) produce various degrees of spread in the gray levels of the output image, thus affecting its contrast.
-
-Generally, r1≤r2 and s1≤s2 is assumed.
-
+Write a program to implement the following point processing techniques in spatial domain:
+* Image Negative
+* Thresholding
+* Gray level slicing
+* Bit plane slicing
 
 ------------------------------------------
 ### Output:
-
-* Original Image (after grayscaling)
 
 <p align="center">
     <img src="./output/image1.png">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (20,50) and (r2,s2) = (100,150) (r2>r1, s2>s1)
+* Original Image
 
 <p align="center">
     <img src="./output/image2.png">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (80,0) and (r2,s2) = (80,255) (r1=r2, s1=0, s2=L-1, where L is maximum gray level allowed)
+* Grayscale Image
 
 <p align="center">
     <img src="./output/image3.png">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (100,100) and (r2,s2) = (200,200) (r1=s1, r2=s2)
+* Negation
 
 <p align="center">
     <img src="./output/image4.png">
 </p>
 
-* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+* Thresholding (T=100)
 
 <p align="center">
     <img src="./output/image5.png">
+</p>
+
+* Grayscale Slicing (without background) (Range: 100 to 200)
+
+<p align="center">
+    <img src="./output/image6.png">
+</p>
+
+* Grayscale Slicing (with background) (Range: 100 to 200)
+
+<p align="center">
+    <img src="./output/image7.png">
+</p>
+
+* Bit Plane Slicing (LSB to MSB)
+
+<p align="center">
+    <img src="./output/image8.png">
 </p>

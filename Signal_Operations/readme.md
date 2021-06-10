@@ -2,7 +2,7 @@
 
 -----------------------------------------
 ### Problem Definition:
-Write a program to represent standard discrete time signals & perform the following operations on them: 
+Write a program to represent standard discrete time signals and perform the following operations on them: 
 * Phase change
 * Amplitude change
 * Addition, Subtraction
