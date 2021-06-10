@@ -1,28 +1,52 @@
-## Dining Philosopher Problem
+## Contrast Stretching
 
 -----------------------------------------
 ### Problem Definition:
-**Write a program to implement Process synchronization algorithm using threads for Dining Philosopher problem.**
+**Write a program to implement contrast stretching in a digital image.**
 
-Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
+Contrast stretching (often called normalization) is a simple image enhancement technique that attempts to improve the contrast in an image by stretching the range of intensity values it contains to span a desired range of values.
 
 <p align="center">
-    <img height=300px src="./dining-philosopher.png">
+    <img height=300px src="./contrast-stretching.png">
 </p>
 
-Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have both left and right forks. Each fork can be held by only one philosopher and so a philosopher can use the fork only if it is not being used by another philosopher. After an individual philosopher finishes eating, they need to put down both forks so that the forks become available to others. A philosopher can only take the fork on their right or the one on their left as they become available and they cannot start eating before getting both forks.
+The locations of (r1,s1) and (r2,s2) control the shape of the transformation function:
+* If r1= s1 and r2= s2 the transformation is a linear function and produces no changes.
+* If r1=r2, s1=0 and s2=L-1, the transformation becomes a thresholding function that creates a binary image.
+* Intermediate values of (r1,s1) and (r2,s2) produce various degrees of spread in the gray levels of the output image, thus affecting its contrast.
 
-Eating is not limited by the remaining amounts of spaghetti or stomach space; an infinite supply and an infinite demand are assumed.
+Generally, r1≤r2 and s1≤s2 is assumed.
 
-The problem is how to design a discipline of behavior (a concurrent algorithm) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
 
 ------------------------------------------
 ### Output:
+
+* Original Image (after grayscaling)
 
 <p align="center">
     <img src="./output/image1.png">
 </p>
 
+* Image after contrast stretching with (r1,s1) = (20,50) and (r2,s2) = (100,150) (r2>r1, s2>s1)
+
 <p align="center">
     <img src="./output/image2.png">
+</p>
+
+* Image after contrast stretching with (r1,s1) = (80,0) and (r2,s2) = (80,255) (r1=r2, s1=0, s2=L-1, where L is maximum gray level allowed)
+
+<p align="center">
+    <img src="./output/image3.png">
+</p>
+
+* Image after contrast stretching with (r1,s1) = (100,100) and (r2,s2) = (200,200) (r1=s1, r2=s2)
+
+<p align="center">
+    <img src="./output/image4.png">
+</p>
+
+* Image after contrast stretching with (r1,s1) = (80,100) and (r2,s2) = (70,80) (r1>s1, r2>s2; possibility of intensity artifacts)
+
+<p align="center">
+    <img src="./output/image5.png">
 </p>
