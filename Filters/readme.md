@@ -8,5 +8,5 @@ Write a program to implement low pass and high pass filtering in spatial and fre
 ### Output:
 
 <p align="center">
-    <img src="./output/image.png">
+    <img src="./output.png">
 </p>
